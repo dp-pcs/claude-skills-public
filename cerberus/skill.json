@@ -1,0 +1,20 @@
+{
+  "name": "cerberus",
+  "version": "1.0.0",
+  "description": "Multi-strategy plan review and prompting technique analysis - uses three distinct prompting approaches (contrastive, positive, negative) to review execution plans and identify which technique produces the best results",
+  "author": "David Proctor - AI CoE",
+  "invocation": {
+    "slash_command": "/cerberus",
+    "aliases": ["/plan-review", "/prompting-analysis"]
+  },
+  "capabilities": {
+    "interactive": true,
+    "codebase_access": true,
+    "file_creation": true,
+    "external_api": false
+  },
+  "prompts": {
+    "system": "system-prompt.md",
+    "examples": "examples.md"
+  }
+}
