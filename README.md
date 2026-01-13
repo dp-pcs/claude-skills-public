@@ -22,6 +22,27 @@ cp -r cerberus ~/.claude/skills/
 
 [Read more about Cerberus](cerberus/README.md)
 
+---
+
+### Maestro - Parallel Multi-Agent Deployment Orchestrator
+
+Orchestrates complex multi-phase deployments by spawning parallel sub-agents for database migrations, services, APIs, and testing. Transforms large implementation plans into coordinated parallel execution.
+
+**Installation:**
+
+```bash
+cp -r maestro ~/.claude/skills/
+```
+
+**Usage:**
+
+```bash
+/maestro
+# Then provide your deployment plan path
+```
+
+[Read more about Maestro](maestro/README.md)
+
 ## Installation
 
 To install a skill:
